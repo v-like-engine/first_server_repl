@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base_mask.css') }}?" />
+    <title>{{ title }}</title>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+        <h1>Миссия Изучение Программирования</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://music.yandex.ru/album/6979957/track/49894861">CSS работает</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h4>Мы сделяли это</h4>
+
+    {% block content %}{% endblock %}
+</body>
+
+</html>
